@@ -40,4 +40,8 @@ public class Circle extends Shape {
     public String toString() {
         return "Circle["+super.toString()+", radius= "+radius+", area= "+this.getArea()+", perimeter= "+this.getPerimeter()+"]";
     }
+
+    public String temp() {
+        return "It's just a test!";
+    }
 }
